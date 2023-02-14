@@ -5,11 +5,12 @@ html{
 }
 body {
     background-color: #1F2937;
+    margin: 0 100px;
 }
 
 /* Header Section */
 header {
-    margin: 0 100px;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -35,4 +36,30 @@ a:hover,
 a:visited,
 a:active {
     color: #E5E7EB;
+}
+.split{
+    display: flex;
+    justify-content: space-between;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start:
+    
+}
+.main {
+    font-size: 28px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button {
+    color: white;
+    background-color: #3882F6;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
 }
