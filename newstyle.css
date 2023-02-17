@@ -141,8 +141,41 @@ button {
 .thor {
     font-weight: bold;
     font-style: italic;
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Call to Action section */
+.actionsection {
+    background-color: white;
+     width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  
+
+    display: flex;
+    justify-content: center;
+}
+.actionbox {
+    background-color: #3882F6;
+    border-radius: 5px; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+} 
+.action {
+    color: #f9faf8;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.actionsub {
+    display: flex;
+    justify-content: flex-start;
+}
+.actionbutton {
+    border: 2px solid white;
+    border-radius: 5px;
+}   
