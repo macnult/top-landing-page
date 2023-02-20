@@ -159,23 +159,38 @@ button {
 .actionbox {
     background-color: #3882F6;
     border-radius: 5px; 
-    
+    padding: 10px 350px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;  
 } 
+.actionwords {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center
+}
 .action {
     color: #f9faf8;
+    font-size: 20px;
     width: 100%;
+    margin-bottom: 0;
+
     display: flex;
     justify-content: flex-start;
 }
 .actionsub {
+    color: #f9faf8;
+    font-size: 18px;
+    opacity: 90%;
+    margin-top: 2px;
     display: flex;
-    justify-content: flex-start;
+    
 }
 .actionbutton {
     border: 2px solid white;
     border-radius: 5px;
+
+    display: flex;
+    justify-content: flex-end;
+
 }   
