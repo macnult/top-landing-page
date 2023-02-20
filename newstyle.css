@@ -151,6 +151,10 @@ button {
      width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 .actionbox {
     background-color: #3882F6;
@@ -158,10 +162,8 @@ button {
     padding: 10px 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;  
-
-    margin-left: 400px;
-    margin-right: 400px;
+    align-items: center; 
+    
 } 
 .actionwords {
     display: flex;
@@ -189,9 +191,11 @@ button {
 .actionbutton {
     border: 2px solid white;
     border-radius: 5px;
+    margin-left: 100px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
 } 
 
 /* Footer */
