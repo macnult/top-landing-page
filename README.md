@@ -1,4 +1,7 @@
-# top-landing-test
-Landing Page Test for The Odin Project
+# top-landing-page
 
-Not the actual assignment, just testing things as I work through the Flexbox section
+This is The Odin Project's Flexbot assignment: Create a landing page.
+
+Previous edits to this repo were me attempting this project after each Flexbox section. 
+
+If there are future projects that involve this repo, I will make note of them below. 
