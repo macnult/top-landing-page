@@ -193,3 +193,12 @@ button {
     flex-direction: row;
     justify-content: flex-end;  
 } 
+
+/* Footer */
+footer {
+    color: #f9faf8;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
