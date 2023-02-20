@@ -151,23 +151,23 @@ button {
      width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
-  
-
-    display: flex;
-    justify-content: center;
 }
 .actionbox {
     background-color: #3882F6;
     border-radius: 5px; 
-    padding: 10px 350px;
+    padding: 10px 100px;
     display: flex;
+    justify-content: space-between;
     align-items: center;  
+
+    margin-left: 400px;
+    margin-right: 400px;
 } 
 .actionwords {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center
+    align-items: center;
 }
 .action {
     color: #f9faf8;
@@ -189,8 +189,7 @@ button {
 .actionbutton {
     border: 2px solid white;
     border-radius: 5px;
-
     display: flex;
-    justify-content: flex-end;
-
-}   
+    flex-direction: row;
+    justify-content: flex-end;  
+} 
